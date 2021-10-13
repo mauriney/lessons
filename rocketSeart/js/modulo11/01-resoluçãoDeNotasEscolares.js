@@ -12,13 +12,13 @@ numérico para sistema de notas em caracteres tipo A B C
 const nota = 82
 
 if (nota < 60){
-    console.log ('Nota F')
-  } else if (nota <= 69){
-    console.log('Nota D')
-  }else if (nota <= 79){
-    console.log('Nota C')
-  } else if (nota <= 89){
-    console.log('Nota B')
-  } else {
-    console.log('Nota A')
-  }
+  console.log ('Nota F')
+} else if (nota <= 69){
+  console.log('Nota D')
+}else if (nota <= 79){
+  console.log('Nota C')
+} else if (nota <= 89){
+  console.log('Nota B')
+} else {
+  console.log('Nota A')
+}
