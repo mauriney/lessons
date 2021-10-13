@@ -8,22 +8,17 @@ numérico para sistema de notas em caracteres tipo A B C
 * entre 60 - 69   -   D
 * menor que 60    -   F
  */
-const nota = 60
+
+const nota = 82
 
 if (nota < 60){
-  console.log ('Nota F')
-} else{
-  if (nota <= 69){
+    console.log ('Nota F')
+  } else if (nota <= 69){
     console.log('Nota D')
-  }else{
-    if (nota <= 79){
-      console.log('Nota C')
-    } else{
-      if (nota <= 89){
-        console.log('Nota B')
-      } else {
-        console.log('Nota A')
-      }
-    }
+  }else if (nota <= 79){
+    console.log('Nota C')
+  } else if (nota <= 89){
+    console.log('Nota B')
+  } else {
+    console.log('Nota A')
   }
-}
