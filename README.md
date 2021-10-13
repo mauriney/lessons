@@ -1,1 +1,1 @@
-# lessons
+# list of solved exercises and perhaps explanations of found resolutions
