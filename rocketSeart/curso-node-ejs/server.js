@@ -15,4 +15,4 @@ app.get("/sobre", function(req, res){
 
 
 app.listen(8080)
-console.log('rodando')
+console.log('Servidor local rodando')
