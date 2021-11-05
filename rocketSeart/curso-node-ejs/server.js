@@ -6,11 +6,39 @@ const app = express();
 app.set("view engine", "ejs")
 
 app.get("/", function(req, res){
-    res.render("index")
+    const items = [
+        {
+            title: "L",
+            message: "Pariatur sit est cillum fugiat aliqua tempor excepteur."
+        },
+        {
+            title: "O",
+            message: "Pariatur sit est cillum fugiat aliqua tempor excepteur."
+        },
+        {
+            title: "R",
+            message: "Pariatur sit est cillum fugiat aliqua tempor excepteur."
+        },
+        {
+            title: "E",
+            message: "Pariatur sit est cillum fugiat aliqua tempor excepteur."
+        },
+        {
+            title: "M",
+            message: "Pariatur sit est cillum fugiat aliqua tempor excepteur."
+        },
+    ]
+
+    const subtitle = "Deserunt ex adipisicing amet est in. Deserunt ex adipisicing amet est in."
+    
+    res.render("pages/index", {
+        qualitys: items,
+        subtitle: subtitle,
+    })
 })
 
 app.get("/sobre", function(req, res){
-    res.render("about")
+    res.render("pages/about")
 })
 
 
